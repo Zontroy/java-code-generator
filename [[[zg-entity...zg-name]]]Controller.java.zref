@@ -1,0 +1,10 @@
+// [[[zg-entity...zg-name]]]Controller.java.zref
+public class [[[zg-entity...zg-name]]]Controller {
+    @Autowired
+    private [[[zg-entity...zg-name]]]Repository zg-lowerFirstCase(((zg-entity...zg-name)))Repository;
+
+    @GetMapping("/zg-lowerFirstCase(((zg-entity...zg-name)))s")
+    public List[[[zg-entity...zg-name]]] getAll[[[zg-entity...zg-name]]]s() {
+        return zg-lowerFirstCase(((zg-entity...zg-name)))Repository.findAll();
+    }
+}
